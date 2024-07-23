@@ -28,13 +28,8 @@ export default function RootLayout({
       <html lang="en">
         <body className={outfit.className}>
           <NextTopLoader color="#000"/>
-          {children}</body>
-          <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
+          {children}
+        </body>
       </html>
     </ClerkProvider>
   );
